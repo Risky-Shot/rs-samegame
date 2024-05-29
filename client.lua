@@ -28,7 +28,7 @@ end)
 exports('startGame', start_game)
 
 RegisterCommand('test_skill_bar', function()
-    exports['RoofRunning']:startGame({
+    exports['rs-samegame']:startGame({
         time = 25,
         rows = 6,
         cols = 6,
